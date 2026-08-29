@@ -39,7 +39,7 @@ android {
     }
 }
 
-dependencies {
+dependencies {implementation("com.facebook.react:react-android")
     implementation("com.facebook.react:react-android")
 
     if (hermesEnabled.toBoolean()) {
